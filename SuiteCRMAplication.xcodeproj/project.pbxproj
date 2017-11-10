@@ -8,26 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		530927A61FA9F72C00F75B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927A51FA9F72C00F75B69 /* AppDelegate.m */; };
-		530927A91FA9F72C00F75B69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927A81FA9F72C00F75B69 /* ViewController.m */; };
+		530927A91FA9F72C00F75B69 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927A81FA9F72C00F75B69 /* LoginViewController.m */; };
 		530927AC1FA9F72C00F75B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530927AA1FA9F72C00F75B69 /* Main.storyboard */; };
 		530927AF1FA9F72C00F75B69 /* SuiteCRMAplication.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 530927AD1FA9F72C00F75B69 /* SuiteCRMAplication.xcdatamodeld */; };
 		530927B11FA9F72C00F75B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 530927B01FA9F72C00F75B69 /* Assets.xcassets */; };
 		530927B41FA9F72C00F75B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530927B21FA9F72C00F75B69 /* LaunchScreen.storyboard */; };
 		530927B71FA9F72C00F75B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927B61FA9F72C00F75B69 /* main.m */; };
+		530927BF1FA9FA6000F75B69 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927BD1FA9FA6000F75B69 /* NSString+MD5.m */; };
+		530927C21FA9FF9400F75B69 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927C11FA9FF9400F75B69 /* WebViewController.m */; };
+		530927C51FAA032900F75B69 /* ActivitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927C41FAA032900F75B69 /* ActivitiesViewController.m */; };
+		530927C81FAA09EB00F75B69 /* AddActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530927C71FAA09EB00F75B69 /* AddActivityViewController.m */; };
+		532A2E6F1FAB1EAD00BA8826 /* ActTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 532A2E6E1FAB1EAD00BA8826 /* ActTableViewCell.m */; };
+		53A228461FAB65F5006333C5 /* DetailActViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A228451FAB65F5006333C5 /* DetailActViewController.m */; };
+		6CCD59527A5FBA34913E1FA6 /* libPods-SuiteCRMAplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CAA8E9A012066C2C36FD46 /* libPods-SuiteCRMAplication.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		530927A11FA9F72C00F75B69 /* SuiteCRMAplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuiteCRMAplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		530927A41FA9F72C00F75B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		530927A51FA9F72C00F75B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		530927A71FA9F72C00F75B69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		530927A81FA9F72C00F75B69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		530927A71FA9F72C00F75B69 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		530927A81FA9F72C00F75B69 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		530927AB1FA9F72C00F75B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		530927AE1FA9F72C00F75B69 /* SuiteCRMAplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuiteCRMAplication.xcdatamodel; sourceTree = "<group>"; };
 		530927B01FA9F72C00F75B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		530927B31FA9F72C00F75B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		530927B51FA9F72C00F75B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		530927B61FA9F72C00F75B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		530927BD1FA9FA6000F75B69 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		530927BE1FA9FA6000F75B69 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		530927C01FA9FF9400F75B69 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		530927C11FA9FF9400F75B69 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		530927C31FAA032900F75B69 /* ActivitiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivitiesViewController.h; sourceTree = "<group>"; };
+		530927C41FAA032900F75B69 /* ActivitiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivitiesViewController.m; sourceTree = "<group>"; };
+		530927C61FAA09EB00F75B69 /* AddActivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddActivityViewController.h; sourceTree = "<group>"; };
+		530927C71FAA09EB00F75B69 /* AddActivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddActivityViewController.m; sourceTree = "<group>"; };
+		532A2E6D1FAB1EAD00BA8826 /* ActTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActTableViewCell.h; sourceTree = "<group>"; };
+		532A2E6E1FAB1EAD00BA8826 /* ActTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActTableViewCell.m; sourceTree = "<group>"; };
+		53A228441FAB65F5006333C5 /* DetailActViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailActViewController.h; sourceTree = "<group>"; };
+		53A228451FAB65F5006333C5 /* DetailActViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailActViewController.m; sourceTree = "<group>"; };
+		A80E1026C96E289FBE6D666E /* Pods-SuiteCRMAplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiteCRMAplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuiteCRMAplication/Pods-SuiteCRMAplication.release.xcconfig"; sourceTree = "<group>"; };
+		A875C9F0141E9752BF1BAEEF /* Pods-SuiteCRMAplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuiteCRMAplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuiteCRMAplication/Pods-SuiteCRMAplication.debug.xcconfig"; sourceTree = "<group>"; };
+		D3CAA8E9A012066C2C36FD46 /* libPods-SuiteCRMAplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuiteCRMAplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CCD59527A5FBA34913E1FA6 /* libPods-SuiteCRMAplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34E80E87C07DE7F3E40060F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CAA8E9A012066C2C36FD46 /* libPods-SuiteCRMAplication.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		530927981FA9F72C00F75B69 = {
 			isa = PBXGroup;
 			children = (
 				530927A31FA9F72C00F75B69 /* SuiteCRMAplication */,
 				530927A21FA9F72C00F75B69 /* Products */,
+				B8C67D573AEC07A9DED1403C /* Pods */,
+				34E80E87C07DE7F3E40060F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +95,20 @@
 			children = (
 				530927A41FA9F72C00F75B69 /* AppDelegate.h */,
 				530927A51FA9F72C00F75B69 /* AppDelegate.m */,
-				530927A71FA9F72C00F75B69 /* ViewController.h */,
-				530927A81FA9F72C00F75B69 /* ViewController.m */,
+				530927A71FA9F72C00F75B69 /* LoginViewController.h */,
+				530927A81FA9F72C00F75B69 /* LoginViewController.m */,
+				530927C01FA9FF9400F75B69 /* WebViewController.h */,
+				530927C11FA9FF9400F75B69 /* WebViewController.m */,
+				530927C31FAA032900F75B69 /* ActivitiesViewController.h */,
+				530927C41FAA032900F75B69 /* ActivitiesViewController.m */,
+				53A228441FAB65F5006333C5 /* DetailActViewController.h */,
+				53A228451FAB65F5006333C5 /* DetailActViewController.m */,
+				530927C61FAA09EB00F75B69 /* AddActivityViewController.h */,
+				530927C71FAA09EB00F75B69 /* AddActivityViewController.m */,
+				532A2E6D1FAB1EAD00BA8826 /* ActTableViewCell.h */,
+				532A2E6E1FAB1EAD00BA8826 /* ActTableViewCell.m */,
+				530927BE1FA9FA6000F75B69 /* NSString+MD5.h */,
+				530927BD1FA9FA6000F75B69 /* NSString+MD5.m */,
 				530927AA1FA9F72C00F75B69 /* Main.storyboard */,
 				530927B01FA9F72C00F75B69 /* Assets.xcassets */,
 				530927B21FA9F72C00F75B69 /* LaunchScreen.storyboard */,
@@ -74,6 +119,15 @@
 			path = SuiteCRMAplication;
 			sourceTree = "<group>";
 		};
+		B8C67D573AEC07A9DED1403C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A875C9F0141E9752BF1BAEEF /* Pods-SuiteCRMAplication.debug.xcconfig */,
+				A80E1026C96E289FBE6D666E /* Pods-SuiteCRMAplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 530927BA1FA9F72C00F75B69 /* Build configuration list for PBXNativeTarget "SuiteCRMAplication" */;
 			buildPhases = (
+				CCFF790C774D5E6CE1A30C15 /* [CP] Check Pods Manifest.lock */,
 				5309279D1FA9F72C00F75B69 /* Sources */,
 				5309279E1FA9F72C00F75B69 /* Frameworks */,
 				5309279F1FA9F72C00F75B69 /* Resources */,
+				74068809435302501729E42A /* [CP] Embed Pods Frameworks */,
+				6A943CB7BF54B03462EEF55B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,13 +197,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A943CB7BF54B03462EEF55B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiteCRMAplication/Pods-SuiteCRMAplication-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74068809435302501729E42A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuiteCRMAplication/Pods-SuiteCRMAplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFF790C774D5E6CE1A30C15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SuiteCRMAplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5309279D1FA9F72C00F75B69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530927A91FA9F72C00F75B69 /* ViewController.m in Sources */,
+				530927A91FA9F72C00F75B69 /* LoginViewController.m in Sources */,
+				532A2E6F1FAB1EAD00BA8826 /* ActTableViewCell.m in Sources */,
+				530927C51FAA032900F75B69 /* ActivitiesViewController.m in Sources */,
+				530927C21FA9FF9400F75B69 /* WebViewController.m in Sources */,
+				530927C81FAA09EB00F75B69 /* AddActivityViewController.m in Sources */,
 				530927AF1FA9F72C00F75B69 /* SuiteCRMAplication.xcdatamodeld in Sources */,
+				53A228461FAB65F5006333C5 /* DetailActViewController.m in Sources */,
+				530927BF1FA9FA6000F75B69 /* NSString+MD5.m in Sources */,
 				530927B71FA9F72C00F75B69 /* main.m in Sources */,
 				530927A61FA9F72C00F75B69 /* AppDelegate.m in Sources */,
 			);
@@ -280,6 +394,7 @@
 		};
 		530927BB1FA9F72C00F75B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A875C9F0141E9752BF1BAEEF /* Pods-SuiteCRMAplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,6 +409,7 @@
 		};
 		530927BC1FA9F72C00F75B69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A80E1026C96E289FBE6D666E /* Pods-SuiteCRMAplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

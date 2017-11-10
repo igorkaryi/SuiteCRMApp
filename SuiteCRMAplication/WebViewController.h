@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  SuiteCRMAplication
 //
 //  Created by Igor Karyi on 11/1/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WebViewController : UIViewController
 
 @end
-
